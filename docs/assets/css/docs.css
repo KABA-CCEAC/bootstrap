@@ -23,7 +23,7 @@ section > .row {
 -------------------------------------------------- */
 .jumbotron {
   min-width: 940px;
-  padding-top: 40px;
+  padding-top: 35px;
 }
 .jumbotron .inner {
   background: transparent url(../img/grid-18px.png) top center;
@@ -251,7 +251,7 @@ section > .row {
 -------------------------------------------------- */
 .topbar-wrapper {
   position: relative;
-  height: 40px;
+  height: 35px;
   margin: 5px 0 15px;
 }
 .topbar-wrapper .topbar {

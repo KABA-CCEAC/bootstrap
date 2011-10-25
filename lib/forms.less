@@ -72,9 +72,13 @@ select,
   padding: 4px;
   font-size: @basefont;
   line-height: @baseline;
-  color: @gray;
+  color: @grayDark;
   border: 1px solid #ccc;
   .border-radius(3px);
+}
+
+select {
+  background: lighten(@grayUltraLight, 5%);
 }
 
 /* mini reset for non-html5 file types */
@@ -160,7 +164,7 @@ select:focus {
 
 // Error styles
 form div.clearfix.error {
-  background: lighten(@red, 57%);
+  background: lighten(@red, 55%);
   padding: 10px 0;
   margin: -10px 0 10px;
   .border-radius(4px);
@@ -268,9 +272,10 @@ textarea[disabled],
 input[readonly],
 select[readonly],
 textarea[readonly] {
-  background-color: #f5f5f5;
+  background-color: @grayLighter;
   border-color: #ddd;
   cursor: not-allowed;
+  color: @white;
 }
 
 // Actions (the buttons)

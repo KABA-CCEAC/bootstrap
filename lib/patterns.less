@@ -8,7 +8,7 @@
 
 // Topbar for Branding and Nav
 .topbar {
-  height: 40px;
+  height: 35px;
   position: fixed;
   top: 0;
   left: 0;
@@ -40,20 +40,24 @@
   }
   h3 a,
   .brand {
+    width: 90px;
+    height: 20px;
     float: left;
     display: block;
-    padding: 8px 20px 12px;
+    padding: 5px 20px 5px;
     margin-left: -20px; // negative indent to left-align the text down the page
     color: @white;
     font-size: 20px;
     font-weight: 200;
     line-height: 1;
+    background: url('img/logo.png') 5px -2px;
+    background-size: 120px 35px;
   }
 
   // Plain text in topbar
   p {
     margin: 0;
-    line-height: 40px;
+    line-height: 35px;
     a:hover {
       background-color: transparent;
       color: @white;
@@ -75,7 +79,7 @@
     background-color: #444;
     background-color: rgba(255,255,255,.3);
     #font > .sans-serif(13px, normal, 1);
-    padding: 4px 9px;
+    padding: 2px 9px;
     color: @white;
     color: rgba(255,255,255,.75);
     border: 1px solid #111;
@@ -105,7 +109,7 @@
       color: @grayDark;
       text-shadow: 0 1px 0 @white;
       border: 0;
-      padding: 5px 10px;
+      padding: 2px 10px;
       .box-shadow(0 0 3px rgba(0,0,0,.15));
     }
   }
@@ -115,8 +119,8 @@
 // For backwards compatibility, include .topbar .fill
 .topbar-inner,
 .topbar .fill {
-  background-color: #222;
-  #gradient > .vertical(#333, #222);
+  background-color: #3f6495;
+  #gradient > .vertical(@topbar_from, @topbar_to);
   @shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
   .box-shadow(@shadow);
 }
@@ -140,19 +144,23 @@
     float: left;
   }
   a {
+    color: @grayLighter;
+    border-top: solid 3px rgba(0,0,0,.00);
     display: block;
     float: none;
-    padding: 10px 10px 11px;
+    padding: 4px 10px 8px;
     line-height: 19px;
     text-decoration: none;
     &:hover {
       color: @white;
       text-decoration: none;
+      background: @blueDark;
+      .gradientBar(@blueDark, @topbar_to);
     }
   }
   .active > a {
-    background-color: #222;
-    background-color: rgba(0,0,0,.5);
+    border-top: solid 3px @blue;
+    font-weight: bold;
   }
 
   // Secondary (floated right) nav in topbar
@@ -173,27 +181,28 @@
   li.open .menu,
   .dropdown-toggle:hover,
   .dropdown.open .dropdown-toggle {
-    background: #444;
-    background: rgba(255,255,255,.05);
+      background: @blueDark;
+      .gradientBar(@blueDark, @topbar_to);
   }
   // .menu-dropdown for backwards compatibility
   .menu-dropdown,
   .dropdown-menu {
-    background-color: #333;
+    background-color: @topbar_from;
     // a.menu for backwards compatibility
     a.menu,
     .dropdown-toggle {
       color: @white;
       &.open {
-        background: #444;
-        background: rgba(255,255,255,.05);
+        background: @topbar_to;
+        background: rgba(0,63,128,.05);
       }
     }
     li a {
-      color: #999;
+      color: @grayLighter;
       text-shadow: 0 1px 0 rgba(0,0,0,.5);
       &:hover {
-        #gradient > .vertical(#292929,#191919);
+        #gradient > .vertical(lighten(@topbar_from,5%), @topbar_from);
+        border-left: solid 3px @blueLight;
         color: @white;
       }
     }
@@ -201,8 +210,8 @@
       color: @white;
     }
     .divider {
-      background-color: #222;
-      border-color: #444;
+      background-color: @topbar_from;
+      border-color: @topbar_to;
     }
   }
 }
@@ -245,7 +254,7 @@ a.menu:after,
   float: left;
   display: none; // None by default, but block on "open" of the menu
   position: absolute;
-  top: 40px;
+  top: 35px;
   z-index: 900;
   min-width: 160px;
   max-width: 220px;
@@ -290,7 +299,8 @@ a.menu:after,
     text-shadow: 0 1px 0 @white;
     // Hover state
     &:hover {
-      #gradient > .vertical(#eeeeee, #dddddd);
+      #gradient > .vertical(lighten(@blueLight,40%), lighten(@blueLight,20%));
+      border-left: solid 2px @blue;
       color: @grayDark;
       text-decoration: none;
       @shadow: inset 0 1px 0 rgba(0,0,0,.025), inset 0 -1px rgba(0,0,0,.025);
@@ -306,9 +316,9 @@ a.menu:after,
   // .menu for backwards compatibility
   .menu,
   .dropdown-toggle {
-    color: @white;
-    background: #ccc;
-    background: rgba(0,0,0,.3);
+    color: @blue;
+    background: @blueLight;
+    background: rgba(173,194,221,.3);
   }
   // .menu-dropdown for backwards compatibility
   .menu-dropdown,
@@ -377,7 +387,7 @@ a.menu:after,
   // first one for backwards compatibility
   li.open.menu .menu,
   .open.dropdown .dropdown-toggle {
-    border-color: #999;
+    border-color: @blue;
   }
   // first one for backwards compatibility
   li.open a.menu:after,
@@ -398,7 +408,7 @@ a.menu:after,
     line-height: 30px;
     .border-radius(15px);
     &:hover {
-      background: @linkColorHover;
+      background: @blue;
       color: @white;
       text-decoration: none;
       text-shadow: 0 1px 1px rgba(0,0,0,.25);
@@ -508,15 +518,15 @@ footer {
   // Danger and error appear as red
   &.danger,
   &.error {
-    .gradientBar(#ee5f5b, #c43c35);
+    .gradientBar(@red, @redDark);
   }
   // Success appears as green
   &.success {
-    .gradientBar(#62c462, #57a957);
+    .gradientBar(@green, @greenDark);
   }
   // Info appears as a neutral blue
   &.info {
-    .gradientBar(#5bc0de, #339bb9);
+    .gradientBar(@blueLight, @blue);
   }
 }
 
@@ -697,8 +707,8 @@ input[type=submit].btn {
       border-color: lighten(#62c462, 25%);
     }
     &.info {
-      background-color: lighten(#6bd0ee, 25%);
-      border-color: lighten(#6bd0ee, 20%);
+      background-color: lighten(@blue, 25%);
+      border-color: lighten(@blue, 20%);
     }
   }
 }
@@ -733,12 +743,13 @@ input[type=submit].btn {
   }
   a:hover,
   .active a {
-    background-color: lighten(@blue, 45%);
+    background-color: lighten(@blue, 30%);
   }
   .disabled a,
   .disabled a:hover {
     background-color: transparent;
-    color: @grayLight;
+    color: lighten(@grayLight, 20%);
+    cursor: default;
   }
   .next a {
     border: 0;
@@ -971,10 +982,10 @@ input[type=submit].btn {
   text-transform: uppercase;
   white-space: nowrap;
   .border-radius(3px);
-  &.important { background-color: #c43c35; }
+  &.important { background-color: @red; }
   &.warning   { background-color: @orange; }
   &.success   { background-color: @green; }
-  &.notice    { background-color: lighten(@blue, 25%); }
+  &.notice    { background-color: @blue; }
 }
 
 

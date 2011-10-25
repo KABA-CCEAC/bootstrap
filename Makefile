@@ -1,7 +1,7 @@
-VERSION=1.3.0
+VERSION=1.3.1
 DATE=$(shell DATE)
-BOOTSTRAP = ./bootstrap.css
-BOOTSTRAP_MIN = ./bootstrap.min.css
+BOOTSTRAP = ./bootstrap
+BOOTSTRAP_MIN = ./bootstrap.min
 BOOTSTRAP_LESS = ./lib/bootstrap.less
 LESS_COMPESSOR ?= `which lessc`
 WATCHR ?= `which watchr`
@@ -9,8 +9,9 @@ WATCHR ?= `which watchr`
 build:
 	@@if test ! -z ${LESS_COMPESSOR}; then \
 		sed -e 's/@VERSION/'"v${VERSION}"'/' -e 's/@DATE/'"${DATE}"'/' <${BOOTSTRAP_LESS} >${BOOTSTRAP_LESS}.tmp; \
-		lessc ${BOOTSTRAP_LESS}.tmp > ${BOOTSTRAP}; \
-		lessc ${BOOTSTRAP_LESS}.tmp > ${BOOTSTRAP_MIN} --compress; \
+		lessc ${BOOTSTRAP_LESS}.tmp > ${BOOTSTRAP}.css; \
+		lessc ${BOOTSTRAP_LESS}.tmp > build/${BOOTSTRAP}_${VERSION}.css; \
+		lessc ${BOOTSTRAP_LESS}.tmp > build/${BOOTSTRAP_MIN}_${VERSION}.css --compress; \
 		rm -f ${BOOTSTRAP_LESS}.tmp; \
 		echo "Bootstrap successfully built! - `date`"; \
 	else \

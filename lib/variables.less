@@ -2,26 +2,47 @@
  * Variables to customize the look and feel of Bootstrap
  * ----------------------------------------------------- */
 
+// fonts
+@font-face {
+  font-family: "Eurostile";
+  font-style: normal;
+  src: url('fonts/EurostileLTStd.otf');
+}
 
 // Links
-@linkColor:         #0069d6;
+@linkColor:         #3f6495; //#0069d6;
 @linkColorHover:    darken(@linkColor, 15);
 
 // Grays
 @black:             #000;
-@grayDark:          lighten(@black, 25%);
-@gray:              lighten(@black, 50%);
-@grayLight:         lighten(@black, 75%);
-@grayLighter:       lighten(@black, 90%);
+@grayDark:          #343434; //lighten(@black, 25%);
+@gray:              #444; //(@black, 50%);
+@grayLight:         #666; //lighten(@black, 75%);
+@grayLighter:       #dcdcdc; //lighten(@black, 90%);
+@grayUltraLight:    #e5e5e5;
 @white:             #fff;
 
+// Topbar
+@topbar_from:       #002a58;
+@topbar_to:         #003e80;
+
 // Accent Colors
-@blue:              #049CDB;
-@blueDark:          #0064CD;
-@green:             #46a546;
-@red:               #9d261d;
-@yellow:            #ffc40d;
-@orange:            #f89406;
+@blueDark:          #3f6495; //#0064CD;
+@blue:              #768eb2; //#049CDB;
+@blueLight:         #adc2dd;
+
+@greenDark:         #72a74b;
+@green:             #8bcc5c;
+
+@redDark:           #9d261d;
+@red:               #d20000;
+
+@yellowDark:        darken(@yellow, 15); //#ffc40d;
+@yellow:            #ffc40d; //#ffc40d;
+
+@orangeDark:        #f39200; //#f89406;
+@orange:            #ffb300; //#f89406;
+
 @pink:              #c3325f;
 @purple:            #7a43b6;
 
