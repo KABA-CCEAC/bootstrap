@@ -1,9 +1,14 @@
-BOOTSTRAP = ./docs/assets/css/bootstrap.css
+VERSION=2.0.2.0
+
+BOOTSTRAP = ./docs/assets/css/bootstrap
+BOOTSTRAP_MIN = ./docs/assets/css/bootstrap-${VERSION}.min.css
 BOOTSTRAP_LESS = ./less/bootstrap.less
-BOOTSTRAP_RESPONSIVE = ./docs/assets/css/bootstrap-responsive.css
+BOOTSTRAP_RESPONSIVE = ./docs/assets/css/bootstrap-responsive
+BOOTSTRAP_RESPONSIVE_MIN = ./docs/assets/css/bootstrap-responsive-${VERSION}.min.css
 BOOTSTRAP_RESPONSIVE_LESS = ./less/responsive.less
 LESS_COMPRESSOR ?= `which lessc`
 WATCHR ?= `which watchr`
+
 
 #
 # BUILD DOCS
@@ -14,8 +19,14 @@ docs: bootstrap
 	zip -r docs/assets/bootstrap.zip bootstrap
 	rm -r bootstrap
 	lessc ${BOOTSTRAP_LESS} > ${BOOTSTRAP}
+	lessc --compress ${BOOTSTRAP_LESS} > ${BOOTSTRAP_MIN}
 	lessc ${BOOTSTRAP_RESPONSIVE_LESS} > ${BOOTSTRAP_RESPONSIVE}
+	lessc --compress ${BOOTSTRAP_RESPONSIVE_LESS} > ${BOOTSTRAP_RESPONSIVE_MIN}
 	node docs/build
+	cp ${BOOTSTRAP} ${BOOTSTRAP}.css
+	cp ${BOOTSTRAP} ${BOOTSTRAP}-${VERSION}.css
+	cp ${BOOTSTRAP_RESPONSIVE} ${BOOTSTRAP_RESPONSIVE}.css
+	cp ${BOOTSTRAP_RESPONSIVE} ${BOOTSTRAP_RESPONSIVE}-${VERSION}.css
 	cp img/* docs/assets/img/
 	cp js/*.js docs/assets/js/
 	cp js/tests/vendor/jquery.js docs/assets/js/

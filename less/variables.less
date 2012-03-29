@@ -1,3 +1,5 @@
+    @import "variables_kaba.less";
+
 // Variables.less
 // Variables to customize the look and feel of Bootstrap
 // -----------------------------------------------------
@@ -21,8 +23,8 @@
 
 // Accent colors
 // -------------------------
-@blue:                  #049cdb;
-@blueDark:              #0064cd;
+@blue:                  #8d97a6;
+@blueDark:              #04284d;
 @green:                 #46a546;
 @red:                   #9d261d;
 @yellow:                #ffc40d;
@@ -34,7 +36,7 @@
 // Scaffolding
 // -------------------------
 @bodyBackground:        @white;
-@textColor:             @grayDark;
+@textColor:             @kabaTextGray;
 
 
 // Links
@@ -45,8 +47,8 @@
 
 // Typography
 // -------------------------
-@baseFontSize:          13px;
-@baseFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif;
+@baseFontSize:          12px;
+@baseFontFamily:        Arial, "Helvetica Neue", Helvetica, sans-serif;
 @baseLineHeight:        18px;
 @altFontFamily:         Georgia, "Times New Roman", Times, serif;
 
@@ -139,18 +141,18 @@
 
 // Navbar
 // -------------------------
-@navbarHeight:                    40px;
-@navbarBackground:                @grayDarker;
-@navbarBackgroundHighlight:       @grayDark;
+@navbarHeight:                    30px;
+@navbarBackground:                @blueDark;
+@navbarBackgroundHighlight:       #003366;
 
-@navbarText:                      @grayLight;
-@navbarLinkColor:                 @grayLight;
-@navbarLinkColorHover:            @white;
-@navbarLinkColorActive:           @navbarLinkColorHover;
-@navbarLinkBackgroundHover:       transparent;
-@navbarLinkBackgroundActive:      @navbarBackground;
+@navbarText:                      @white;
+@navbarLinkColor:                 @white;
+@navbarLinkColorHover:            @kabaBlue;
+@navbarLinkColorActive:           @kabaBlue;
+@navbarLinkBackgroundHover:       @kabaLightGray;
+@navbarLinkBackgroundActive:      @kabaLightGray;
 
-@navbarSearchBackground:          lighten(@navbarBackground, 25%);
+@navbarSearchBackground:          lighten(@navbarBackground, 10%);
 @navbarSearchBackgroundFocus:     @white;
 @navbarSearchBorder:              darken(@navbarSearchBackground, 30%);
 @navbarSearchPlaceholderColor:    #ccc;

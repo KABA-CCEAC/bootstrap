@@ -32,5 +32,3 @@ nbproject
 .svn
 .CVS
 .idea
-build
-build/**/*

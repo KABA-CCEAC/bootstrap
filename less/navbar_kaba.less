@@ -1,0 +1,40 @@
+.navbar-inner {
+  @shadow: 0 2px 3px rgba(0,0,0,.15), inset 0 -1px 0 rgba(0,0,0,.1);
+  .box-shadow(@shadow);
+}
+
+// Brand, links, text, and buttons
+.navbar {
+  .brand { 
+    padding: 3px 20px 7px;
+  }
+}
+
+// Links
+.navbar .nav > li {
+  border-left: 1px solid #072039;
+  border-right: 1px solid #2a4d74;
+
+  &:first-child {
+    border-left: none;
+  }
+  &:last-child {
+    border-right: none;
+  }
+}
+
+.navbar .nav > li > a {
+  padding: 5px 20px 6px 20px;
+  font-size: 14px;
+  line-height: 19px;
+  color: @navbarLinkColor;
+  text-decoration: none;
+  text-shadow: none;
+}
+
+.navbar .nav.pull-right > li > a {
+  padding: 7px 10px 7px 10px;
+  font-size: 12px;
+  line-height: 16px;
+}
+
