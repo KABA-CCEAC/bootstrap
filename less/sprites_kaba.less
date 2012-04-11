@@ -1,0 +1,79 @@
+    @import "variables_kaba.less";
+
+// SPRITES
+// Glyphs and icons for buttons, nav, and more
+// -------------------------------------------
+
+[class^="glyph-"],
+[class*=" glyph-"] {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  vertical-align: text-top;
+  background-image: url("@{kabaIconSpritePathMiddleBlue}");
+  background-position: 16px 16px;
+  background-repeat: no-repeat;
+
+  .ie7-restore-right-whitespace();
+}
+.glyph-white {
+  background-image: url("@{kabaIconSpritePathWhite}");
+}
+.glyph-black {
+  background-image: url("@{kabaIconSpritePathDarkGray}");
+}
+
+.generate () {
+
+  .spanY (@indexY) when (@indexY > 0) {
+
+    .spanX (@index) when (@index > 0) {
+      (~".glyph-@{indexY}-@{index}") { .icon(@index); }
+      .spanX(@index - 1);
+    }
+    .spanX (0) {  }
+
+    .icon (@columns) {
+      background-position: (@columns * -29px) + 29px      (@indexY * -23px) + 23px;
+    }
+
+    .spanX(16);
+  }
+
+  .spanY(32);
+  .spanY(31);
+  .spanY(30);
+  .spanY(29);
+  .spanY(28);
+  .spanY(27);
+  .spanY(26);
+  .spanY(25);
+  .spanY(24);
+  .spanY(23);
+  .spanY(22);
+  .spanY(21);
+  .spanY(20);
+  .spanY(19);
+  .spanY(18);
+  .spanY(17);
+  .spanY(16);
+  .spanY(15);
+  .spanY(14);
+  .spanY(13);
+  .spanY(12);
+  .spanY(11);
+  .spanY(10);
+  .spanY(9);
+  .spanY(8);
+  .spanY(7);
+  .spanY(6);
+  .spanY(5);
+  .spanY(4);
+  .spanY(3);
+  .spanY(2);
+  .spanY(1);
+
+}
+
+.generate();

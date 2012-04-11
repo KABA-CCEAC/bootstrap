@@ -1773,6 +1773,1564 @@ table .span24 {
 .icon-resize-horizontal {
   background-position: -456px -118px;
 }
+[class^="glyph-"],
+[class*=" glyph-"] {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  vertical-align: text-top;
+  background-image: url("../img/glyphs_middleblue.png");
+  background-position: 16px 16px;
+  background-repeat: no-repeat;
+  *margin-right: .3em;
+}
+[class^="glyph-"]:last-child,
+[class*=" glyph-"]:last-child {
+  *margin-left: 0;
+}
+.glyph-white {
+  background-image: url("../img/glyphs_white.png");
+}
+.glyph-black {
+  background-image: url("../img/glyphs_darkgray.png");
+}
+.glyph-32-16 {
+  background-position: -435px -713px;
+}
+.glyph-32-15 {
+  background-position: -406px -713px;
+}
+.glyph-32-14 {
+  background-position: -377px -713px;
+}
+.glyph-32-13 {
+  background-position: -348px -713px;
+}
+.glyph-32-12 {
+  background-position: -319px -713px;
+}
+.glyph-32-11 {
+  background-position: -290px -713px;
+}
+.glyph-32-10 {
+  background-position: -261px -713px;
+}
+.glyph-32-9 {
+  background-position: -232px -713px;
+}
+.glyph-32-8 {
+  background-position: -203px -713px;
+}
+.glyph-32-7 {
+  background-position: -174px -713px;
+}
+.glyph-32-6 {
+  background-position: -145px -713px;
+}
+.glyph-32-5 {
+  background-position: -116px -713px;
+}
+.glyph-32-4 {
+  background-position: -87px -713px;
+}
+.glyph-32-3 {
+  background-position: -58px -713px;
+}
+.glyph-32-2 {
+  background-position: -29px -713px;
+}
+.glyph-32-1 {
+  background-position: 0px -713px;
+}
+.glyph-31-16 {
+  background-position: -435px -690px;
+}
+.glyph-31-15 {
+  background-position: -406px -690px;
+}
+.glyph-31-14 {
+  background-position: -377px -690px;
+}
+.glyph-31-13 {
+  background-position: -348px -690px;
+}
+.glyph-31-12 {
+  background-position: -319px -690px;
+}
+.glyph-31-11 {
+  background-position: -290px -690px;
+}
+.glyph-31-10 {
+  background-position: -261px -690px;
+}
+.glyph-31-9 {
+  background-position: -232px -690px;
+}
+.glyph-31-8 {
+  background-position: -203px -690px;
+}
+.glyph-31-7 {
+  background-position: -174px -690px;
+}
+.glyph-31-6 {
+  background-position: -145px -690px;
+}
+.glyph-31-5 {
+  background-position: -116px -690px;
+}
+.glyph-31-4 {
+  background-position: -87px -690px;
+}
+.glyph-31-3 {
+  background-position: -58px -690px;
+}
+.glyph-31-2 {
+  background-position: -29px -690px;
+}
+.glyph-31-1 {
+  background-position: 0px -690px;
+}
+.glyph-30-16 {
+  background-position: -435px -667px;
+}
+.glyph-30-15 {
+  background-position: -406px -667px;
+}
+.glyph-30-14 {
+  background-position: -377px -667px;
+}
+.glyph-30-13 {
+  background-position: -348px -667px;
+}
+.glyph-30-12 {
+  background-position: -319px -667px;
+}
+.glyph-30-11 {
+  background-position: -290px -667px;
+}
+.glyph-30-10 {
+  background-position: -261px -667px;
+}
+.glyph-30-9 {
+  background-position: -232px -667px;
+}
+.glyph-30-8 {
+  background-position: -203px -667px;
+}
+.glyph-30-7 {
+  background-position: -174px -667px;
+}
+.glyph-30-6 {
+  background-position: -145px -667px;
+}
+.glyph-30-5 {
+  background-position: -116px -667px;
+}
+.glyph-30-4 {
+  background-position: -87px -667px;
+}
+.glyph-30-3 {
+  background-position: -58px -667px;
+}
+.glyph-30-2 {
+  background-position: -29px -667px;
+}
+.glyph-30-1 {
+  background-position: 0px -667px;
+}
+.glyph-29-16 {
+  background-position: -435px -644px;
+}
+.glyph-29-15 {
+  background-position: -406px -644px;
+}
+.glyph-29-14 {
+  background-position: -377px -644px;
+}
+.glyph-29-13 {
+  background-position: -348px -644px;
+}
+.glyph-29-12 {
+  background-position: -319px -644px;
+}
+.glyph-29-11 {
+  background-position: -290px -644px;
+}
+.glyph-29-10 {
+  background-position: -261px -644px;
+}
+.glyph-29-9 {
+  background-position: -232px -644px;
+}
+.glyph-29-8 {
+  background-position: -203px -644px;
+}
+.glyph-29-7 {
+  background-position: -174px -644px;
+}
+.glyph-29-6 {
+  background-position: -145px -644px;
+}
+.glyph-29-5 {
+  background-position: -116px -644px;
+}
+.glyph-29-4 {
+  background-position: -87px -644px;
+}
+.glyph-29-3 {
+  background-position: -58px -644px;
+}
+.glyph-29-2 {
+  background-position: -29px -644px;
+}
+.glyph-29-1 {
+  background-position: 0px -644px;
+}
+.glyph-28-16 {
+  background-position: -435px -621px;
+}
+.glyph-28-15 {
+  background-position: -406px -621px;
+}
+.glyph-28-14 {
+  background-position: -377px -621px;
+}
+.glyph-28-13 {
+  background-position: -348px -621px;
+}
+.glyph-28-12 {
+  background-position: -319px -621px;
+}
+.glyph-28-11 {
+  background-position: -290px -621px;
+}
+.glyph-28-10 {
+  background-position: -261px -621px;
+}
+.glyph-28-9 {
+  background-position: -232px -621px;
+}
+.glyph-28-8 {
+  background-position: -203px -621px;
+}
+.glyph-28-7 {
+  background-position: -174px -621px;
+}
+.glyph-28-6 {
+  background-position: -145px -621px;
+}
+.glyph-28-5 {
+  background-position: -116px -621px;
+}
+.glyph-28-4 {
+  background-position: -87px -621px;
+}
+.glyph-28-3 {
+  background-position: -58px -621px;
+}
+.glyph-28-2 {
+  background-position: -29px -621px;
+}
+.glyph-28-1 {
+  background-position: 0px -621px;
+}
+.glyph-27-16 {
+  background-position: -435px -598px;
+}
+.glyph-27-15 {
+  background-position: -406px -598px;
+}
+.glyph-27-14 {
+  background-position: -377px -598px;
+}
+.glyph-27-13 {
+  background-position: -348px -598px;
+}
+.glyph-27-12 {
+  background-position: -319px -598px;
+}
+.glyph-27-11 {
+  background-position: -290px -598px;
+}
+.glyph-27-10 {
+  background-position: -261px -598px;
+}
+.glyph-27-9 {
+  background-position: -232px -598px;
+}
+.glyph-27-8 {
+  background-position: -203px -598px;
+}
+.glyph-27-7 {
+  background-position: -174px -598px;
+}
+.glyph-27-6 {
+  background-position: -145px -598px;
+}
+.glyph-27-5 {
+  background-position: -116px -598px;
+}
+.glyph-27-4 {
+  background-position: -87px -598px;
+}
+.glyph-27-3 {
+  background-position: -58px -598px;
+}
+.glyph-27-2 {
+  background-position: -29px -598px;
+}
+.glyph-27-1 {
+  background-position: 0px -598px;
+}
+.glyph-26-16 {
+  background-position: -435px -575px;
+}
+.glyph-26-15 {
+  background-position: -406px -575px;
+}
+.glyph-26-14 {
+  background-position: -377px -575px;
+}
+.glyph-26-13 {
+  background-position: -348px -575px;
+}
+.glyph-26-12 {
+  background-position: -319px -575px;
+}
+.glyph-26-11 {
+  background-position: -290px -575px;
+}
+.glyph-26-10 {
+  background-position: -261px -575px;
+}
+.glyph-26-9 {
+  background-position: -232px -575px;
+}
+.glyph-26-8 {
+  background-position: -203px -575px;
+}
+.glyph-26-7 {
+  background-position: -174px -575px;
+}
+.glyph-26-6 {
+  background-position: -145px -575px;
+}
+.glyph-26-5 {
+  background-position: -116px -575px;
+}
+.glyph-26-4 {
+  background-position: -87px -575px;
+}
+.glyph-26-3 {
+  background-position: -58px -575px;
+}
+.glyph-26-2 {
+  background-position: -29px -575px;
+}
+.glyph-26-1 {
+  background-position: 0px -575px;
+}
+.glyph-25-16 {
+  background-position: -435px -552px;
+}
+.glyph-25-15 {
+  background-position: -406px -552px;
+}
+.glyph-25-14 {
+  background-position: -377px -552px;
+}
+.glyph-25-13 {
+  background-position: -348px -552px;
+}
+.glyph-25-12 {
+  background-position: -319px -552px;
+}
+.glyph-25-11 {
+  background-position: -290px -552px;
+}
+.glyph-25-10 {
+  background-position: -261px -552px;
+}
+.glyph-25-9 {
+  background-position: -232px -552px;
+}
+.glyph-25-8 {
+  background-position: -203px -552px;
+}
+.glyph-25-7 {
+  background-position: -174px -552px;
+}
+.glyph-25-6 {
+  background-position: -145px -552px;
+}
+.glyph-25-5 {
+  background-position: -116px -552px;
+}
+.glyph-25-4 {
+  background-position: -87px -552px;
+}
+.glyph-25-3 {
+  background-position: -58px -552px;
+}
+.glyph-25-2 {
+  background-position: -29px -552px;
+}
+.glyph-25-1 {
+  background-position: 0px -552px;
+}
+.glyph-24-16 {
+  background-position: -435px -529px;
+}
+.glyph-24-15 {
+  background-position: -406px -529px;
+}
+.glyph-24-14 {
+  background-position: -377px -529px;
+}
+.glyph-24-13 {
+  background-position: -348px -529px;
+}
+.glyph-24-12 {
+  background-position: -319px -529px;
+}
+.glyph-24-11 {
+  background-position: -290px -529px;
+}
+.glyph-24-10 {
+  background-position: -261px -529px;
+}
+.glyph-24-9 {
+  background-position: -232px -529px;
+}
+.glyph-24-8 {
+  background-position: -203px -529px;
+}
+.glyph-24-7 {
+  background-position: -174px -529px;
+}
+.glyph-24-6 {
+  background-position: -145px -529px;
+}
+.glyph-24-5 {
+  background-position: -116px -529px;
+}
+.glyph-24-4 {
+  background-position: -87px -529px;
+}
+.glyph-24-3 {
+  background-position: -58px -529px;
+}
+.glyph-24-2 {
+  background-position: -29px -529px;
+}
+.glyph-24-1 {
+  background-position: 0px -529px;
+}
+.glyph-23-16 {
+  background-position: -435px -506px;
+}
+.glyph-23-15 {
+  background-position: -406px -506px;
+}
+.glyph-23-14 {
+  background-position: -377px -506px;
+}
+.glyph-23-13 {
+  background-position: -348px -506px;
+}
+.glyph-23-12 {
+  background-position: -319px -506px;
+}
+.glyph-23-11 {
+  background-position: -290px -506px;
+}
+.glyph-23-10 {
+  background-position: -261px -506px;
+}
+.glyph-23-9 {
+  background-position: -232px -506px;
+}
+.glyph-23-8 {
+  background-position: -203px -506px;
+}
+.glyph-23-7 {
+  background-position: -174px -506px;
+}
+.glyph-23-6 {
+  background-position: -145px -506px;
+}
+.glyph-23-5 {
+  background-position: -116px -506px;
+}
+.glyph-23-4 {
+  background-position: -87px -506px;
+}
+.glyph-23-3 {
+  background-position: -58px -506px;
+}
+.glyph-23-2 {
+  background-position: -29px -506px;
+}
+.glyph-23-1 {
+  background-position: 0px -506px;
+}
+.glyph-22-16 {
+  background-position: -435px -483px;
+}
+.glyph-22-15 {
+  background-position: -406px -483px;
+}
+.glyph-22-14 {
+  background-position: -377px -483px;
+}
+.glyph-22-13 {
+  background-position: -348px -483px;
+}
+.glyph-22-12 {
+  background-position: -319px -483px;
+}
+.glyph-22-11 {
+  background-position: -290px -483px;
+}
+.glyph-22-10 {
+  background-position: -261px -483px;
+}
+.glyph-22-9 {
+  background-position: -232px -483px;
+}
+.glyph-22-8 {
+  background-position: -203px -483px;
+}
+.glyph-22-7 {
+  background-position: -174px -483px;
+}
+.glyph-22-6 {
+  background-position: -145px -483px;
+}
+.glyph-22-5 {
+  background-position: -116px -483px;
+}
+.glyph-22-4 {
+  background-position: -87px -483px;
+}
+.glyph-22-3 {
+  background-position: -58px -483px;
+}
+.glyph-22-2 {
+  background-position: -29px -483px;
+}
+.glyph-22-1 {
+  background-position: 0px -483px;
+}
+.glyph-21-16 {
+  background-position: -435px -460px;
+}
+.glyph-21-15 {
+  background-position: -406px -460px;
+}
+.glyph-21-14 {
+  background-position: -377px -460px;
+}
+.glyph-21-13 {
+  background-position: -348px -460px;
+}
+.glyph-21-12 {
+  background-position: -319px -460px;
+}
+.glyph-21-11 {
+  background-position: -290px -460px;
+}
+.glyph-21-10 {
+  background-position: -261px -460px;
+}
+.glyph-21-9 {
+  background-position: -232px -460px;
+}
+.glyph-21-8 {
+  background-position: -203px -460px;
+}
+.glyph-21-7 {
+  background-position: -174px -460px;
+}
+.glyph-21-6 {
+  background-position: -145px -460px;
+}
+.glyph-21-5 {
+  background-position: -116px -460px;
+}
+.glyph-21-4 {
+  background-position: -87px -460px;
+}
+.glyph-21-3 {
+  background-position: -58px -460px;
+}
+.glyph-21-2 {
+  background-position: -29px -460px;
+}
+.glyph-21-1 {
+  background-position: 0px -460px;
+}
+.glyph-20-16 {
+  background-position: -435px -437px;
+}
+.glyph-20-15 {
+  background-position: -406px -437px;
+}
+.glyph-20-14 {
+  background-position: -377px -437px;
+}
+.glyph-20-13 {
+  background-position: -348px -437px;
+}
+.glyph-20-12 {
+  background-position: -319px -437px;
+}
+.glyph-20-11 {
+  background-position: -290px -437px;
+}
+.glyph-20-10 {
+  background-position: -261px -437px;
+}
+.glyph-20-9 {
+  background-position: -232px -437px;
+}
+.glyph-20-8 {
+  background-position: -203px -437px;
+}
+.glyph-20-7 {
+  background-position: -174px -437px;
+}
+.glyph-20-6 {
+  background-position: -145px -437px;
+}
+.glyph-20-5 {
+  background-position: -116px -437px;
+}
+.glyph-20-4 {
+  background-position: -87px -437px;
+}
+.glyph-20-3 {
+  background-position: -58px -437px;
+}
+.glyph-20-2 {
+  background-position: -29px -437px;
+}
+.glyph-20-1 {
+  background-position: 0px -437px;
+}
+.glyph-19-16 {
+  background-position: -435px -414px;
+}
+.glyph-19-15 {
+  background-position: -406px -414px;
+}
+.glyph-19-14 {
+  background-position: -377px -414px;
+}
+.glyph-19-13 {
+  background-position: -348px -414px;
+}
+.glyph-19-12 {
+  background-position: -319px -414px;
+}
+.glyph-19-11 {
+  background-position: -290px -414px;
+}
+.glyph-19-10 {
+  background-position: -261px -414px;
+}
+.glyph-19-9 {
+  background-position: -232px -414px;
+}
+.glyph-19-8 {
+  background-position: -203px -414px;
+}
+.glyph-19-7 {
+  background-position: -174px -414px;
+}
+.glyph-19-6 {
+  background-position: -145px -414px;
+}
+.glyph-19-5 {
+  background-position: -116px -414px;
+}
+.glyph-19-4 {
+  background-position: -87px -414px;
+}
+.glyph-19-3 {
+  background-position: -58px -414px;
+}
+.glyph-19-2 {
+  background-position: -29px -414px;
+}
+.glyph-19-1 {
+  background-position: 0px -414px;
+}
+.glyph-18-16 {
+  background-position: -435px -391px;
+}
+.glyph-18-15 {
+  background-position: -406px -391px;
+}
+.glyph-18-14 {
+  background-position: -377px -391px;
+}
+.glyph-18-13 {
+  background-position: -348px -391px;
+}
+.glyph-18-12 {
+  background-position: -319px -391px;
+}
+.glyph-18-11 {
+  background-position: -290px -391px;
+}
+.glyph-18-10 {
+  background-position: -261px -391px;
+}
+.glyph-18-9 {
+  background-position: -232px -391px;
+}
+.glyph-18-8 {
+  background-position: -203px -391px;
+}
+.glyph-18-7 {
+  background-position: -174px -391px;
+}
+.glyph-18-6 {
+  background-position: -145px -391px;
+}
+.glyph-18-5 {
+  background-position: -116px -391px;
+}
+.glyph-18-4 {
+  background-position: -87px -391px;
+}
+.glyph-18-3 {
+  background-position: -58px -391px;
+}
+.glyph-18-2 {
+  background-position: -29px -391px;
+}
+.glyph-18-1 {
+  background-position: 0px -391px;
+}
+.glyph-17-16 {
+  background-position: -435px -368px;
+}
+.glyph-17-15 {
+  background-position: -406px -368px;
+}
+.glyph-17-14 {
+  background-position: -377px -368px;
+}
+.glyph-17-13 {
+  background-position: -348px -368px;
+}
+.glyph-17-12 {
+  background-position: -319px -368px;
+}
+.glyph-17-11 {
+  background-position: -290px -368px;
+}
+.glyph-17-10 {
+  background-position: -261px -368px;
+}
+.glyph-17-9 {
+  background-position: -232px -368px;
+}
+.glyph-17-8 {
+  background-position: -203px -368px;
+}
+.glyph-17-7 {
+  background-position: -174px -368px;
+}
+.glyph-17-6 {
+  background-position: -145px -368px;
+}
+.glyph-17-5 {
+  background-position: -116px -368px;
+}
+.glyph-17-4 {
+  background-position: -87px -368px;
+}
+.glyph-17-3 {
+  background-position: -58px -368px;
+}
+.glyph-17-2 {
+  background-position: -29px -368px;
+}
+.glyph-17-1 {
+  background-position: 0px -368px;
+}
+.glyph-16-16 {
+  background-position: -435px -345px;
+}
+.glyph-16-15 {
+  background-position: -406px -345px;
+}
+.glyph-16-14 {
+  background-position: -377px -345px;
+}
+.glyph-16-13 {
+  background-position: -348px -345px;
+}
+.glyph-16-12 {
+  background-position: -319px -345px;
+}
+.glyph-16-11 {
+  background-position: -290px -345px;
+}
+.glyph-16-10 {
+  background-position: -261px -345px;
+}
+.glyph-16-9 {
+  background-position: -232px -345px;
+}
+.glyph-16-8 {
+  background-position: -203px -345px;
+}
+.glyph-16-7 {
+  background-position: -174px -345px;
+}
+.glyph-16-6 {
+  background-position: -145px -345px;
+}
+.glyph-16-5 {
+  background-position: -116px -345px;
+}
+.glyph-16-4 {
+  background-position: -87px -345px;
+}
+.glyph-16-3 {
+  background-position: -58px -345px;
+}
+.glyph-16-2 {
+  background-position: -29px -345px;
+}
+.glyph-16-1 {
+  background-position: 0px -345px;
+}
+.glyph-15-16 {
+  background-position: -435px -322px;
+}
+.glyph-15-15 {
+  background-position: -406px -322px;
+}
+.glyph-15-14 {
+  background-position: -377px -322px;
+}
+.glyph-15-13 {
+  background-position: -348px -322px;
+}
+.glyph-15-12 {
+  background-position: -319px -322px;
+}
+.glyph-15-11 {
+  background-position: -290px -322px;
+}
+.glyph-15-10 {
+  background-position: -261px -322px;
+}
+.glyph-15-9 {
+  background-position: -232px -322px;
+}
+.glyph-15-8 {
+  background-position: -203px -322px;
+}
+.glyph-15-7 {
+  background-position: -174px -322px;
+}
+.glyph-15-6 {
+  background-position: -145px -322px;
+}
+.glyph-15-5 {
+  background-position: -116px -322px;
+}
+.glyph-15-4 {
+  background-position: -87px -322px;
+}
+.glyph-15-3 {
+  background-position: -58px -322px;
+}
+.glyph-15-2 {
+  background-position: -29px -322px;
+}
+.glyph-15-1 {
+  background-position: 0px -322px;
+}
+.glyph-14-16 {
+  background-position: -435px -299px;
+}
+.glyph-14-15 {
+  background-position: -406px -299px;
+}
+.glyph-14-14 {
+  background-position: -377px -299px;
+}
+.glyph-14-13 {
+  background-position: -348px -299px;
+}
+.glyph-14-12 {
+  background-position: -319px -299px;
+}
+.glyph-14-11 {
+  background-position: -290px -299px;
+}
+.glyph-14-10 {
+  background-position: -261px -299px;
+}
+.glyph-14-9 {
+  background-position: -232px -299px;
+}
+.glyph-14-8 {
+  background-position: -203px -299px;
+}
+.glyph-14-7 {
+  background-position: -174px -299px;
+}
+.glyph-14-6 {
+  background-position: -145px -299px;
+}
+.glyph-14-5 {
+  background-position: -116px -299px;
+}
+.glyph-14-4 {
+  background-position: -87px -299px;
+}
+.glyph-14-3 {
+  background-position: -58px -299px;
+}
+.glyph-14-2 {
+  background-position: -29px -299px;
+}
+.glyph-14-1 {
+  background-position: 0px -299px;
+}
+.glyph-13-16 {
+  background-position: -435px -276px;
+}
+.glyph-13-15 {
+  background-position: -406px -276px;
+}
+.glyph-13-14 {
+  background-position: -377px -276px;
+}
+.glyph-13-13 {
+  background-position: -348px -276px;
+}
+.glyph-13-12 {
+  background-position: -319px -276px;
+}
+.glyph-13-11 {
+  background-position: -290px -276px;
+}
+.glyph-13-10 {
+  background-position: -261px -276px;
+}
+.glyph-13-9 {
+  background-position: -232px -276px;
+}
+.glyph-13-8 {
+  background-position: -203px -276px;
+}
+.glyph-13-7 {
+  background-position: -174px -276px;
+}
+.glyph-13-6 {
+  background-position: -145px -276px;
+}
+.glyph-13-5 {
+  background-position: -116px -276px;
+}
+.glyph-13-4 {
+  background-position: -87px -276px;
+}
+.glyph-13-3 {
+  background-position: -58px -276px;
+}
+.glyph-13-2 {
+  background-position: -29px -276px;
+}
+.glyph-13-1 {
+  background-position: 0px -276px;
+}
+.glyph-12-16 {
+  background-position: -435px -253px;
+}
+.glyph-12-15 {
+  background-position: -406px -253px;
+}
+.glyph-12-14 {
+  background-position: -377px -253px;
+}
+.glyph-12-13 {
+  background-position: -348px -253px;
+}
+.glyph-12-12 {
+  background-position: -319px -253px;
+}
+.glyph-12-11 {
+  background-position: -290px -253px;
+}
+.glyph-12-10 {
+  background-position: -261px -253px;
+}
+.glyph-12-9 {
+  background-position: -232px -253px;
+}
+.glyph-12-8 {
+  background-position: -203px -253px;
+}
+.glyph-12-7 {
+  background-position: -174px -253px;
+}
+.glyph-12-6 {
+  background-position: -145px -253px;
+}
+.glyph-12-5 {
+  background-position: -116px -253px;
+}
+.glyph-12-4 {
+  background-position: -87px -253px;
+}
+.glyph-12-3 {
+  background-position: -58px -253px;
+}
+.glyph-12-2 {
+  background-position: -29px -253px;
+}
+.glyph-12-1 {
+  background-position: 0px -253px;
+}
+.glyph-11-16 {
+  background-position: -435px -230px;
+}
+.glyph-11-15 {
+  background-position: -406px -230px;
+}
+.glyph-11-14 {
+  background-position: -377px -230px;
+}
+.glyph-11-13 {
+  background-position: -348px -230px;
+}
+.glyph-11-12 {
+  background-position: -319px -230px;
+}
+.glyph-11-11 {
+  background-position: -290px -230px;
+}
+.glyph-11-10 {
+  background-position: -261px -230px;
+}
+.glyph-11-9 {
+  background-position: -232px -230px;
+}
+.glyph-11-8 {
+  background-position: -203px -230px;
+}
+.glyph-11-7 {
+  background-position: -174px -230px;
+}
+.glyph-11-6 {
+  background-position: -145px -230px;
+}
+.glyph-11-5 {
+  background-position: -116px -230px;
+}
+.glyph-11-4 {
+  background-position: -87px -230px;
+}
+.glyph-11-3 {
+  background-position: -58px -230px;
+}
+.glyph-11-2 {
+  background-position: -29px -230px;
+}
+.glyph-11-1 {
+  background-position: 0px -230px;
+}
+.glyph-10-16 {
+  background-position: -435px -207px;
+}
+.glyph-10-15 {
+  background-position: -406px -207px;
+}
+.glyph-10-14 {
+  background-position: -377px -207px;
+}
+.glyph-10-13 {
+  background-position: -348px -207px;
+}
+.glyph-10-12 {
+  background-position: -319px -207px;
+}
+.glyph-10-11 {
+  background-position: -290px -207px;
+}
+.glyph-10-10 {
+  background-position: -261px -207px;
+}
+.glyph-10-9 {
+  background-position: -232px -207px;
+}
+.glyph-10-8 {
+  background-position: -203px -207px;
+}
+.glyph-10-7 {
+  background-position: -174px -207px;
+}
+.glyph-10-6 {
+  background-position: -145px -207px;
+}
+.glyph-10-5 {
+  background-position: -116px -207px;
+}
+.glyph-10-4 {
+  background-position: -87px -207px;
+}
+.glyph-10-3 {
+  background-position: -58px -207px;
+}
+.glyph-10-2 {
+  background-position: -29px -207px;
+}
+.glyph-10-1 {
+  background-position: 0px -207px;
+}
+.glyph-9-16 {
+  background-position: -435px -184px;
+}
+.glyph-9-15 {
+  background-position: -406px -184px;
+}
+.glyph-9-14 {
+  background-position: -377px -184px;
+}
+.glyph-9-13 {
+  background-position: -348px -184px;
+}
+.glyph-9-12 {
+  background-position: -319px -184px;
+}
+.glyph-9-11 {
+  background-position: -290px -184px;
+}
+.glyph-9-10 {
+  background-position: -261px -184px;
+}
+.glyph-9-9 {
+  background-position: -232px -184px;
+}
+.glyph-9-8 {
+  background-position: -203px -184px;
+}
+.glyph-9-7 {
+  background-position: -174px -184px;
+}
+.glyph-9-6 {
+  background-position: -145px -184px;
+}
+.glyph-9-5 {
+  background-position: -116px -184px;
+}
+.glyph-9-4 {
+  background-position: -87px -184px;
+}
+.glyph-9-3 {
+  background-position: -58px -184px;
+}
+.glyph-9-2 {
+  background-position: -29px -184px;
+}
+.glyph-9-1 {
+  background-position: 0px -184px;
+}
+.glyph-8-16 {
+  background-position: -435px -161px;
+}
+.glyph-8-15 {
+  background-position: -406px -161px;
+}
+.glyph-8-14 {
+  background-position: -377px -161px;
+}
+.glyph-8-13 {
+  background-position: -348px -161px;
+}
+.glyph-8-12 {
+  background-position: -319px -161px;
+}
+.glyph-8-11 {
+  background-position: -290px -161px;
+}
+.glyph-8-10 {
+  background-position: -261px -161px;
+}
+.glyph-8-9 {
+  background-position: -232px -161px;
+}
+.glyph-8-8 {
+  background-position: -203px -161px;
+}
+.glyph-8-7 {
+  background-position: -174px -161px;
+}
+.glyph-8-6 {
+  background-position: -145px -161px;
+}
+.glyph-8-5 {
+  background-position: -116px -161px;
+}
+.glyph-8-4 {
+  background-position: -87px -161px;
+}
+.glyph-8-3 {
+  background-position: -58px -161px;
+}
+.glyph-8-2 {
+  background-position: -29px -161px;
+}
+.glyph-8-1 {
+  background-position: 0px -161px;
+}
+.glyph-7-16 {
+  background-position: -435px -138px;
+}
+.glyph-7-15 {
+  background-position: -406px -138px;
+}
+.glyph-7-14 {
+  background-position: -377px -138px;
+}
+.glyph-7-13 {
+  background-position: -348px -138px;
+}
+.glyph-7-12 {
+  background-position: -319px -138px;
+}
+.glyph-7-11 {
+  background-position: -290px -138px;
+}
+.glyph-7-10 {
+  background-position: -261px -138px;
+}
+.glyph-7-9 {
+  background-position: -232px -138px;
+}
+.glyph-7-8 {
+  background-position: -203px -138px;
+}
+.glyph-7-7 {
+  background-position: -174px -138px;
+}
+.glyph-7-6 {
+  background-position: -145px -138px;
+}
+.glyph-7-5 {
+  background-position: -116px -138px;
+}
+.glyph-7-4 {
+  background-position: -87px -138px;
+}
+.glyph-7-3 {
+  background-position: -58px -138px;
+}
+.glyph-7-2 {
+  background-position: -29px -138px;
+}
+.glyph-7-1 {
+  background-position: 0px -138px;
+}
+.glyph-6-16 {
+  background-position: -435px -115px;
+}
+.glyph-6-15 {
+  background-position: -406px -115px;
+}
+.glyph-6-14 {
+  background-position: -377px -115px;
+}
+.glyph-6-13 {
+  background-position: -348px -115px;
+}
+.glyph-6-12 {
+  background-position: -319px -115px;
+}
+.glyph-6-11 {
+  background-position: -290px -115px;
+}
+.glyph-6-10 {
+  background-position: -261px -115px;
+}
+.glyph-6-9 {
+  background-position: -232px -115px;
+}
+.glyph-6-8 {
+  background-position: -203px -115px;
+}
+.glyph-6-7 {
+  background-position: -174px -115px;
+}
+.glyph-6-6 {
+  background-position: -145px -115px;
+}
+.glyph-6-5 {
+  background-position: -116px -115px;
+}
+.glyph-6-4 {
+  background-position: -87px -115px;
+}
+.glyph-6-3 {
+  background-position: -58px -115px;
+}
+.glyph-6-2 {
+  background-position: -29px -115px;
+}
+.glyph-6-1 {
+  background-position: 0px -115px;
+}
+.glyph-5-16 {
+  background-position: -435px -92px;
+}
+.glyph-5-15 {
+  background-position: -406px -92px;
+}
+.glyph-5-14 {
+  background-position: -377px -92px;
+}
+.glyph-5-13 {
+  background-position: -348px -92px;
+}
+.glyph-5-12 {
+  background-position: -319px -92px;
+}
+.glyph-5-11 {
+  background-position: -290px -92px;
+}
+.glyph-5-10 {
+  background-position: -261px -92px;
+}
+.glyph-5-9 {
+  background-position: -232px -92px;
+}
+.glyph-5-8 {
+  background-position: -203px -92px;
+}
+.glyph-5-7 {
+  background-position: -174px -92px;
+}
+.glyph-5-6 {
+  background-position: -145px -92px;
+}
+.glyph-5-5 {
+  background-position: -116px -92px;
+}
+.glyph-5-4 {
+  background-position: -87px -92px;
+}
+.glyph-5-3 {
+  background-position: -58px -92px;
+}
+.glyph-5-2 {
+  background-position: -29px -92px;
+}
+.glyph-5-1 {
+  background-position: 0px -92px;
+}
+.glyph-4-16 {
+  background-position: -435px -69px;
+}
+.glyph-4-15 {
+  background-position: -406px -69px;
+}
+.glyph-4-14 {
+  background-position: -377px -69px;
+}
+.glyph-4-13 {
+  background-position: -348px -69px;
+}
+.glyph-4-12 {
+  background-position: -319px -69px;
+}
+.glyph-4-11 {
+  background-position: -290px -69px;
+}
+.glyph-4-10 {
+  background-position: -261px -69px;
+}
+.glyph-4-9 {
+  background-position: -232px -69px;
+}
+.glyph-4-8 {
+  background-position: -203px -69px;
+}
+.glyph-4-7 {
+  background-position: -174px -69px;
+}
+.glyph-4-6 {
+  background-position: -145px -69px;
+}
+.glyph-4-5 {
+  background-position: -116px -69px;
+}
+.glyph-4-4 {
+  background-position: -87px -69px;
+}
+.glyph-4-3 {
+  background-position: -58px -69px;
+}
+.glyph-4-2 {
+  background-position: -29px -69px;
+}
+.glyph-4-1 {
+  background-position: 0px -69px;
+}
+.glyph-3-16 {
+  background-position: -435px -46px;
+}
+.glyph-3-15 {
+  background-position: -406px -46px;
+}
+.glyph-3-14 {
+  background-position: -377px -46px;
+}
+.glyph-3-13 {
+  background-position: -348px -46px;
+}
+.glyph-3-12 {
+  background-position: -319px -46px;
+}
+.glyph-3-11 {
+  background-position: -290px -46px;
+}
+.glyph-3-10 {
+  background-position: -261px -46px;
+}
+.glyph-3-9 {
+  background-position: -232px -46px;
+}
+.glyph-3-8 {
+  background-position: -203px -46px;
+}
+.glyph-3-7 {
+  background-position: -174px -46px;
+}
+.glyph-3-6 {
+  background-position: -145px -46px;
+}
+.glyph-3-5 {
+  background-position: -116px -46px;
+}
+.glyph-3-4 {
+  background-position: -87px -46px;
+}
+.glyph-3-3 {
+  background-position: -58px -46px;
+}
+.glyph-3-2 {
+  background-position: -29px -46px;
+}
+.glyph-3-1 {
+  background-position: 0px -46px;
+}
+.glyph-2-16 {
+  background-position: -435px -23px;
+}
+.glyph-2-15 {
+  background-position: -406px -23px;
+}
+.glyph-2-14 {
+  background-position: -377px -23px;
+}
+.glyph-2-13 {
+  background-position: -348px -23px;
+}
+.glyph-2-12 {
+  background-position: -319px -23px;
+}
+.glyph-2-11 {
+  background-position: -290px -23px;
+}
+.glyph-2-10 {
+  background-position: -261px -23px;
+}
+.glyph-2-9 {
+  background-position: -232px -23px;
+}
+.glyph-2-8 {
+  background-position: -203px -23px;
+}
+.glyph-2-7 {
+  background-position: -174px -23px;
+}
+.glyph-2-6 {
+  background-position: -145px -23px;
+}
+.glyph-2-5 {
+  background-position: -116px -23px;
+}
+.glyph-2-4 {
+  background-position: -87px -23px;
+}
+.glyph-2-3 {
+  background-position: -58px -23px;
+}
+.glyph-2-2 {
+  background-position: -29px -23px;
+}
+.glyph-2-1 {
+  background-position: 0px -23px;
+}
+.glyph-1-16 {
+  background-position: -435px 0px;
+}
+.glyph-1-15 {
+  background-position: -406px 0px;
+}
+.glyph-1-14 {
+  background-position: -377px 0px;
+}
+.glyph-1-13 {
+  background-position: -348px 0px;
+}
+.glyph-1-12 {
+  background-position: -319px 0px;
+}
+.glyph-1-11 {
+  background-position: -290px 0px;
+}
+.glyph-1-10 {
+  background-position: -261px 0px;
+}
+.glyph-1-9 {
+  background-position: -232px 0px;
+}
+.glyph-1-8 {
+  background-position: -203px 0px;
+}
+.glyph-1-7 {
+  background-position: -174px 0px;
+}
+.glyph-1-6 {
+  background-position: -145px 0px;
+}
+.glyph-1-5 {
+  background-position: -116px 0px;
+}
+.glyph-1-4 {
+  background-position: -87px 0px;
+}
+.glyph-1-3 {
+  background-position: -58px 0px;
+}
+.glyph-1-2 {
+  background-position: -29px 0px;
+}
+.glyph-1-1 {
+  background-position: 0px 0px;
+}
 .dropdown {
   position: relative;
 }
